@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- HEADER -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AIMLOCK APP"
+            android:textColor="#FFD700"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="v1.0.0 | Free Fire Tool"
+            android:textColor="#888888"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- DIVIDER -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFD700"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- AIMBOT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#1A1A1A"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🎯 Aimbot"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+
+            <Switch
+                android:id="@+id/switch_aimbot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="#FFD700"
+                android:trackTint="#333333"/>
+        </LinearLayout>
+
+        <!-- WALLHACK -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#1A1A1A"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="👁️ Wallhack / ESP"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+
+            <Switch
+                android:id="@+id/switch_wallhack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="#FFD700"
+                android:trackTint="#333333"/>
+        </LinearLayout>
+
+        <!-- SPEED HACK -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#1A1A1A"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="⚡ Speed Hack"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+
+            <Switch
+                android:id="@+id/switch_speedhack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="#FFD700"
+                android:trackTint="#333333"/>
+        </LinearLayout>
+
+        <!-- ANTI BAN -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#1A1A1A"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🛡️ Anti-Ban"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+
+            <Switch
+                android:id="@+id/switch_antiban"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="#FFD700"
+                android:trackTint="#333333"/>
+        </LinearLayout>
+
+        <!-- NO RECOIL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#1A1A1A"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🔫 No Recoil"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"/>
+
+            <Switch
+                android:id="@+id/switch_norecoil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="#FFD700"
+                android:trackTint="#333333"/>
+        </LinearLayout>
+
+        <!-- ACTIVATE BUTTON -->
+        <Button
+            android:id="@+id/btn_activate"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="ACTIVATE"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:backgroundTint="#FFD700"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- STATUS BOX -->
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1A1A1A"
+            android:padding="12dp"
+            android:text="Status: Waiting..."
+            android:textColor="#888888"
+            android:textSize="13sp"
+            android:fontFamily="monospace"/>
+
+    </LinearLayout>
+</ScrollView>
